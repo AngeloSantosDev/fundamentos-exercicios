@@ -6,6 +6,6 @@ let number = readlineSync.question("> ");
 let counter = 0;
 
 for (let i = 1; i <= number; i++) {
-    counter = counter + i;
-    console.log(counter);
+    counter =+ i;
+    console.log(counter + " + ");
 }
